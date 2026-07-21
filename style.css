@@ -51,7 +51,6 @@ body {
     color: #c41e3a;
 }
 
-/* Hero Section */
 .hero-section {
     position: relative;
     height: 500px;
@@ -92,7 +91,24 @@ body {
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 
-/* Container */
+.hero {
+    text-align: center;
+    padding: 100px 40px;
+    background: linear-gradient(135deg, #f9f9f9, #f0f0f0);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -114,7 +130,6 @@ body {
     margin-bottom: 50px;
 }
 
-/* Features Section */
 .features {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -147,7 +162,6 @@ body {
     color: #c41e3a;
 }
 
-/* Grid Layout */
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -175,7 +189,12 @@ body {
     width: 100%;
     height: 250px;
     overflow: hidden;
-    background: #f0f0f0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
 }
 
 .card-image img {
@@ -236,7 +255,6 @@ body {
     margin: 15px 0;
 }
 
-/* Buttons */
 .button {
     display: inline-block;
     padding: 12px 28px;
@@ -281,7 +299,6 @@ body {
     color: white;
 }
 
-/* Contact Banner */
 .contact-banner {
     background: linear-gradient(135deg, #c41e3a 0%, #8b1429 100%);
     color: white;
@@ -303,7 +320,6 @@ body {
     opacity: 0.95;
 }
 
-/* Forms */
 .form-group {
     margin-bottom: 22px;
 }
@@ -343,7 +359,6 @@ body {
     margin: 0 auto;
 }
 
-/* About Section */
 .about-section {
     margin-bottom: 40px;
 }
@@ -379,7 +394,6 @@ body {
     font-size: 14px;
 }
 
-/* Contact Info */
 .contact-info {
     margin-bottom: 30px;
     padding-bottom: 30px;
@@ -402,7 +416,6 @@ body {
     line-height: 1.8;
 }
 
-/* Login Box */
 .login-box {
     max-width: 400px;
     margin: 40px auto;
@@ -412,7 +425,6 @@ body {
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .grid {
         grid-template-columns: 1fr;
